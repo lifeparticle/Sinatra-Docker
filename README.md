@@ -16,7 +16,7 @@ rackup -p 4567
 
 View at: http://localhost:4567
 
-# Sinatra Application using Docker
+# Run the Sinatra Application using Docker
 
 ```
 docker compose up
