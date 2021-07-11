@@ -9,16 +9,25 @@ GIT
       rack (~> 2.2)
       rack-protection (= 2.1.0)
       tilt (~> 2.0)
+    sinatra-contrib (2.1.0)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.1.0)
+      sinatra (= 2.1.0)
+      tilt (~> 2.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     daemons (1.4.0)
     eventmachine (1.2.7)
+    multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     rack (2.2.3)
     ruby2_keywords (0.0.4)
+    sinatra-reloader (1.0)
+      sinatra-contrib
     thin (1.8.1)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
@@ -31,6 +40,7 @@ PLATFORMS
 
 DEPENDENCIES
   sinatra!
+  sinatra-reloader
   thin
 
 BUNDLED WITH
